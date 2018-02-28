@@ -10,12 +10,12 @@
     <h1>Homework 3</h1>
 
 <script>
-let start=parseInt(prompt('Enter the start:'));
-let end=parseInt(prompt('Enter the end:'));
-let step=parseInt(prompt('Enter the step:'));
-let stepArray= new Array();
-let total=0;
-let binArray= new Array();
+start=parseInt(prompt('Enter the start:'));
+end=parseInt(prompt('Enter the end:'));
+step=parseInt(prompt('Enter the step:'));
+stepArray= new Array();
+total=0;
+binArray= new Array();
 if (isNaN(start)||isNaN(end)||isNaN(step)||step==0||start<end && step<0||start>end && step>0) {
     document.write('Invalid integer input, please reload and try again.');
 }
